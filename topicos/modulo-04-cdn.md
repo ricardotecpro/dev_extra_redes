@@ -1,6 +1,5 @@
 ### **Arquivo 4: `modulo-04-cdn.md`**
 
-```markdown
 # 🌍 Módulo 4: Entregando Conteúdo em Escala Global - CDNs
 
 Sua aplicação está no ar, mas usuários do outro lado do mundo reclamam de lentidão. Como resolver? A resposta é uma CDN (Content Delivery Network).
@@ -17,19 +16,26 @@ A CDN resolve isso armazenando uma cópia do seu conteúdo (caching) em múltipl
 
 ```mermaid
 graph TD
-    subgraph "Sem CDN"
-        A("Usuário (Japão)") --> B{Servidor de Origem (Brasil)}
+    %% 1. Unificação: Declare os nós que se repetem apenas uma vez.
+    Usuario("Usuário (Japão)")
+    ServidorOrigem{Servidor de Origem (Brasil")}
+    CDN["PoP da CDN (Tóquio)"]
+
+    %% 2. Use os nós declarados para montar os cenários.
+    %% Mantive a sua sintaxe de subgraph com ID, pois é uma boa prática.
+    subgraph semcdn["Sem CDN"]
+        Usuario -- "Latência Alta" --> ServidorOrigem
     end
 
-    subgraph "Com CDN"
-        C("Usuário (Japão)") --> D["PoP da CDN (Tóquio)"]
-        D -- "Conteúdo em Cache" --> C
-        D -- "Se não houver cache (primeira vez)" --> E{Servidor de Origem (Brasil)}
+    subgraph comcdn["Com CDN"]
+        Usuario -- "Latência Baixa" --> CDN
+        CDN -- "Conteúdo em Cache" --> Usuario
+        CDN -- "Se não houver cache" --> ServidorOrigem
     end
 
-    style B fill:#ff9999
-    style E fill:#ff9999
-    style D fill:#99ff99
+    %% 3. Aplique os estilos aos nós unificados.
+    style ServidorOrigem fill:#ff9999
+    style CDN fill:#99ff99
 ````
 
 Quando um usuário acessa seu site, a CDN o direciona para o PoP mais próximo, entregando o conteúdo a partir dali e reduzindo drasticamente a latência.

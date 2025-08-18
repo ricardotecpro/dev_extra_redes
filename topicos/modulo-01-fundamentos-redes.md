@@ -1,6 +1,6 @@
 ### **Arquivo 1: `modulo-01-fundamentos-redes.md`**
 
-````markdown
+
 # 🌐 Módulo 1: A Fundação - Redes e a Internet
 
 Bem-vindo ao ponto de partida da sua jornada pela infraestrutura web! Neste módulo, vamos desvendar os conceitos essenciais que fazem a internet funcionar. Ao final, você entenderá como os dados viajam pelo mundo em milissegundos.
@@ -120,7 +120,7 @@ Um proxy é um intermediário entre o cliente e o servidor final.
 
 <!-- end list -->
 
-````
+
 
 ---
 

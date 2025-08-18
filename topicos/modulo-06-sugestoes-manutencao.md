@@ -1,7 +1,6 @@
 
 ### **Arquivo 6: `sugestoes-manutencao.md`**
 
-```markdown
 # ✨ Sugestões Adicionais para Manter a Qualidade no Longo Prazo
 
 Um curso de tecnologia precisa ser um organismo vivo para se manter relevante. Aqui estão algumas sugestões para garantir a qualidade e a atualização contínua deste material.
@@ -37,4 +36,5 @@ Para manter os alunos engajados e oferecer um caminho de aprendizado contínuo, 
 
 - **Clareza e Simplicidade:** Releia o material periodicamente com a mente de um iniciante. Remova jargões desnecessários ou explique-os de forma muito clara.
 - **Consistência Visual:** Mantenha o padrão de formatação Markdown, emojis e diagramas em todos os módulos para criar uma experiência de aprendizado coesa e agradável.
-````
+
+---

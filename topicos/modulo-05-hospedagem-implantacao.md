@@ -1,6 +1,5 @@
 ### **Arquivo 5: `modulo-05-hospedagem-implantacao.md`**
 
-```markdown
 # ☁️ Módulo 5: Onde Tudo Acontece - Hospedagem e Implantação
 
 Chegou a hora de colocar sua aplicação no ar! Este módulo explora as diferentes maneiras de hospedar seu projeto, desde as mais simples até as mais robustas arquiteturas em nuvem.
@@ -123,5 +122,3 @@ A nuvem oferece um ecossistema de serviços muito mais rico que um simples VPS.
       - **Docker:** Tecnologia para "empacotar" sua aplicação e suas dependências em um contêiner, garantindo que ela rode da mesma forma em qualquer ambiente. Essencial para o desenvolvimento moderno.
 
 -----
-
-````

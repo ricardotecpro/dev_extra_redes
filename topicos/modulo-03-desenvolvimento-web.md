@@ -1,6 +1,5 @@
 ### **Arquivo 3: `modulo-03-desenvolvimento-web.md`**
 
-```markdown
 # 💻 Módulo 3: Desenvolvimento de Aplicações Web - Frontend e Backend
 
 Com a infraestrutura pronta, vamos conectar o código. Este módulo foca na arquitetura de aplicações web modernas e como elas interagem com os servidores.
@@ -103,7 +102,5 @@ O frontend é responsável por carregar rápido e proporcionar uma experiência 
   }
 }
 ```
-
-````
 
 ---

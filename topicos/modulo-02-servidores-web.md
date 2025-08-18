@@ -1,6 +1,5 @@
 ### **Arquivo 2: `modulo-02-servidores-web.md`**
 
-```markdown
 # 🚀 Módulo 2: O Coração da Aplicação - Servidores Web
 
 Agora que entendemos como a informação viaja pela rede, vamos focar no software que a recebe e responde: o servidor web. Ele é a porta de entrada para sua aplicação.
@@ -116,4 +115,3 @@ server {
 }
 ```
 
-````
