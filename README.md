@@ -1,5 +1,3 @@
-# modulo_20_redes
-
 ## Curso Intensivo: Infraestrutura Web Moderna para Desenvolvedores
 
 **Domine os Pilares da Web: De Redes e Servidores à Nuvem e Aplicações Escaláveis**
